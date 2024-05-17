@@ -1,0 +1,127 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-container{
+  background-color: white;
+  height: 650px;
+    width: 1100px;
+  border-radius: 15px;
+  display: flex;
+ align-items: center;
+  justify-content: center;
+ 
+  margin-top: 30px;
+}
+.left{
+ width: 60%;
+ height: 650px;
+position: relative;
+display: flex;
+justify-content: center;
+}
+.left-main-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 350px;
+  width: 600px;
+  margin-top: 120px;
+}
+
+.left-main-form .logo{
+  width: 100px;
+   height: 100px;
+   flex-direction: column;
+   display: flex;
+   justify-content: start;
+   position: absolute;
+   top: 10px;
+   left: 10px;
+
+}
+.left h1{
+  color: green;
+font-family: 'montserrat';
+font-size: 20px;
+    display: flex;
+    align-items: center;
+   font-weight: 800;
+}
+.right{
+  height: 650px;
+  width: 40%;
+  background-color: green;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: end;
+}
+.left-main-form .social-logo img{
+  width: 18px;
+}
+.left-main-form p{
+  color: rgb(113, 103, 87);
+  font-family: 'montserrat';
+}
+.mb-3 input{
+  height: 35px;
+    width: 300px;
+    border: 2px solid rgb(106, 234, 106);;
+    border-radius: 4px;
+}
+.mb-3 textarea{
+  height: 35px;
+    width: 300px;
+    opacity: 50%;
+    margin: 14px 10px 0px 49px;
+}
+::placeholder{
+  font-family: 'montserrat';
+  font-size: 15px;
+  padding: 5PX;
+}
+input :focus + ::placeholder
+input :valid + ::placeholder{
+  color: green;
+  height: 30px;
+  line-height: 30px;
+  transform: translate(-15px, -16px) scale(0.88);
+  z-index: 1111;
+}
+a{
+  font-family: 'montserrat';
+  text-decoration: none;
+  font-weight: 500;
+  color: black;
+}
+label{
+  font-family: 'montserrat';
+  font-size: 12px;
+    font-weight: 700;
+}
+.check-wrap{
+  height: 35px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin: 3px 10px 0px 49px
+}
+.button button{
+  background-color: rgb(106, 234, 106);
+  color: aliceblue;
+  margin: 10px;
+  width: 114px;
+  height: 33px;
+  font-family: 'montserrat';
+  border: 2px solid rgb(106, 233, 106);
+  border-radius: 14px;
+
+}
